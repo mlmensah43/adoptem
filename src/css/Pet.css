@@ -1,0 +1,61 @@
+.pet-image{
+    width: 15vw;
+    height: 22vw;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 15vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  button{
+    outline: none;
+  }
+    
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+
+  .text-1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .text-2{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

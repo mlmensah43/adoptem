@@ -1,0 +1,139 @@
+{
+    "pets":[
+            {
+              "id": 100101,
+              "name": "sara",
+              "age": 2,
+              "color": "Brown",
+              "breed": "German Shepard",
+              "type": "dog",
+              "gender": "f",
+              "bio": "Lover: I need constant attention and I hate being away from you",
+              "bg": "Sara was saved from a high kill shelter. She is very sweet and loving- She just wants to be close to her people,so she would make anyone a great companion. Sara is housetrained ,crate trained, and loves car rides. Please ask to meet Sara today. She deserves a forever home."
+          },
+          {
+            "id": 100102,
+            "name": "dean",
+            "age": 7,
+            "color": "Silver",
+            "breed": "Great Dane",
+            "type": "dog",
+            "gender": "m",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100103,
+            "name": "callie",
+            "age": "2 m.o.",
+            "color": "Blue Point",
+            "breed": "Siamese",
+            "type": "cat",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100104,
+            "name": "felix",
+            "age": "2 m.o.",
+            "color": "Blue Point",
+            "breed": "Siamese",
+            "type": "cat",
+            "gender": "m",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100105,
+            "name": "victor",
+            "age": 4,
+            "color": "Multi",
+            "breed": "Corgi",
+            "type": "dog",
+            "gender": "m",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100106,
+            "name": "goldie",
+            "age": 7,
+            "color": "Golden",
+            "breed": "Golden Retriever",
+            "type": "dog",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100107,
+            "name": "missy",
+            "age": 6,
+            "color": "Multi",
+            "breed": "Domestic Shorthair",
+            "type": "cat",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100108,
+            "name": "jill",
+            "age": "1 m.o.",
+            "color": "Silver",
+            "breed": "Labrador",
+            "type": "dog",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100109,
+            "name": "jack",
+            "age": "1 m.o.",
+            "color": "Silver",
+            "breed": "Labrador",
+            "type": "dog",
+            "gender": "m",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100110,
+            "name": "lucky",
+            "age": 4,
+            "color": "Multi",
+            "breed": "Terrier Mix",
+            "type": "dog",
+            "gender": "m",
+            "bio": "Athletic: Lucky is a four-year-old terrior mix. His exuberant joy and love for life will bring a smile to your face, guaranteed! Lucky has tons of energy and would make a fantastic running buddy or hiking partner.",
+            "bg": "If Lucky sounds like the cheerful, athletic friend you`ve been dreaming of, contact us! "
+          },
+          {
+            "id": 100111,
+            "name": "lady",
+            "age": 2,
+            "color": "Multi",
+            "breed": "Cocker Spaniel",
+            "type": "dog",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          },
+          {
+            "id": 100112,
+            "name": "alice",
+            "age": 8,
+            "color": "Sand",
+            "breed": "Domestic Shorthair",
+            "type": "cat",
+            "gender": "f",
+            "bio": "Lover: I need constant attention and I hate being away from you",
+            "bg": ""
+          }
+    ],
+    "favorites":[
+
+    ]
+}

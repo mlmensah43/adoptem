@@ -1,0 +1,23 @@
+.Favorites{
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    background-color: white;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.bottom{
+    margin-bottom: 10vh; 
+}
+
+.pet-box{
+    /* grid-column-start: 2; */
+}
+
+.pets-grid{
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: minmax(10px, auto);
+    grid-gap: 8em;
+    grid-column: 1/4; 
+}

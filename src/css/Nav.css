@@ -1,0 +1,51 @@
+.Nav{
+    justify-content: space-between;
+    grid-column: 1/ 4;
+}
+
+.adoptem{
+    margin: 3em 0 0 0;
+    width: 25vw;
+}
+
+.menu{
+    padding: 2vw 5vw;
+}
+
+.logo{
+    width: 10vw;
+    margin: 3em 0 0 3em;
+  }
+
+.heart-icon{
+    width: 2vw;
+    height: 2vw;
+    margin: 3em 3em 0 1em;
+}
+
+.menu-icon{
+    margin: 3em 3em 0 1em;
+    width: 6vw;
+}
+
+.menu-links{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+}
+
+
+@media only screen and (min-width: 1050px) {
+
+    .adoptem{
+        width: 15vw;
+    }
+
+    .logo{
+        width: 4vw;
+    }
+
+    .menu-icon{
+        width: 1.7vw;
+    }
+}

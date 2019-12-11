@@ -1,0 +1,101 @@
+.Info{
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 1em;
+    background-color: white;
+    min-height: 100vh;
+    color: black;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+.link-2{
+    border-radius: 40px;
+    border: 1px solid black;
+    background: none;
+    padding: .7em;
+    color: black;
+    text-decoration: none;
+  }
+
+.image-col{
+    grid-column: 1/2;
+    justify-self: end;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 5vw 0; */
+}
+
+.description{
+    justify-self: center;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 20px;
+    width: 35vw;
+    height: 30vw;
+    margin-bottom: 2vw;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.heart{
+    width: 2vw;
+}
+
+.square{
+    width: 20vw;
+    height: 20vw;
+}
+
+.gray-word{
+    color: black;
+    opacity: 40%;
+}
+
+.gray-row{
+    background-color: rgba(161, 159, 159, 0.1);
+    padding: 2em 0;
+    border-radius: 20px;
+    width: 30vw;
+    height: .8vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pet-name{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+
+.p-w{
+    width: 35vw;
+}
+
+.gray-row .flex-col{
+    text-align: center;
+}
+
+
+.sub-info{
+    /*
+    background-color: rgba(161, 159, 159, 0.1);
+    padding: 2em;
+    border-radius: 20px; */
+    border-right: 1.3px rgba(0, 0, 0, 0.3) solid;
+    padding-right: 2em;
+    /* margin: 1em; */
+}
+
+@media only screen and (max-width: 600px) {
+    .Info{
+        grid-template-columns: 2fr;
+    }
+  
+}

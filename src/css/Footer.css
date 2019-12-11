@@ -1,0 +1,38 @@
+.Footer{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/ 4;
+    padding: 3vh;
+    font-weight: 300;
+    font-size: .8em;
+    margin: 15vw 0 0 0;
+    color: white;
+}
+
+.footer-logo{
+    width: 10vw
+}
+
+.footer-icons{
+    width: 2vw;
+    height: 2vw;
+}
+
+.yt-icon{
+    width: 2.6svw;
+    height: 2.6vw;
+}
+
+.Footer .flex-col{
+    align-items: center;
+}
+
+.Footer .flex-row{
+    align-items: center;
+}
+
+.Footer .flex-row img{
+    margin: 0 1vw 0 0;
+}
+
