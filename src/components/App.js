@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Switch,Route} from "react-router-dom";
+import {HashRouter as Router,Route} from "react-router-dom";
 import Contact from './Contact';
 import Favorites from './Favorites';
 import Info from './Info';
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Switch>
+      <Router>
         <Route path="/" exact component={Landing}></Route>
         <Route path="/contact" exact component={Contact}></Route>
         <Route path="/pets" exact component={Pets}></Route>
@@ -34,7 +34,7 @@ function App() {
         <Route path="/about" exact component={About}></Route>
         {pets.map(setPets)}
         {/* <Route component={NotFound}></Route>   */}
-      </Switch>
+      </Router>
     </div>
   );
 }
