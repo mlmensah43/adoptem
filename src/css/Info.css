@@ -54,8 +54,7 @@
 }
 
 .gray-word{
-    color: black;
-    opacity: 40%;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .gray-row{
