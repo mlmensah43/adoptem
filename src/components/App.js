@@ -16,9 +16,8 @@ const pets = data.pets;
 
 function setPets(pet){
     return(
-      <Route path={`/${pet.name}`} render={({ match }) => {
-        return <Info id={pet.id} name={pet.name} age={pet.age} color={pet.color} breed={pet.breed} gender={pet.gender} bio={pet.bio} bg={pet.bg}></Info>;
-      }}/>
+      <Route path={`/${pet.name}`} render={(props) => <Info {...props} id={pet.id} name={pet.name} age={pet.age} color={pet.color} breed={pet.breed} gender={pet.gender} bio={pet.bio} bg={pet.bg} />}
+      />
     );
 };
 
