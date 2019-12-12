@@ -123,19 +123,19 @@ class Pets extends React.Component {
   
           <div className="center flex-row gray-row-2">
             <div>
-                <button className={`${this.state.dogs}`}><img onClick={() => this.toggleType('dog')} className="icons" src={require(`../images/dog-icon.png`)} alt="dog"></img></button>
+                <button><img onClick={() => this.toggleType('dog')} className="icons" src={require(`../images/dog-icon-${this.state.dogs}.png`)} alt="dog"></img></button>
             </div>
 
             <div className="divider">
-                <button className={`${this.state.cats}`}><img onClick={() => this.toggleType('cat')} className="icons" src={require(`../images/cat-icon.png`)} alt="cat"></img></button>
+                <button><img onClick={() => this.toggleType('cat')} className="icons" src={require(`../images/cat-icon-${this.state.cats}.png`)} alt="cat"></img></button>
             </div>
 
             <div>
-                <button className={`${this.state.female}`}><img onClick={() => this.toggleGender('f')} className="icons" src={require(`../images/female-icon.png`)} alt="female"></img></button>
+                <button><img onClick={() => this.toggleGender('f')} className="icons" src={require(`../images/female-icon-${this.state.female}.png`)} alt="female"></img></button>
             </div>
 
             <div>
-                <button className={`${this.state.male}`}><img onClick={() => this.toggleGender('m')} className="icons" src={require(`../images/male-icon.png`)} alt="male"></img></button>
+                <button><img onClick={() => this.toggleGender('m')} className="icons" src={require(`../images/male-icon-${this.state.male}.png`)} alt="male"></img></button>
             </div>
           </div>
   
