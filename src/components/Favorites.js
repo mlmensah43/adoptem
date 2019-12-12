@@ -3,7 +3,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import Pet from './Pet';
 import '../css/Favorites.css';
-import data from '../data.json';
+import data from '../data/data.json';
 
 
 const pets = data.pets;
