@@ -11,7 +11,7 @@ function Landing() {
         <div className="paragraph">
             <div className="header">The best breeds are the ones in need.</div>
             <p>Adopting an abandoned animal is one of the best ways to change a life. Help change a life today and adopt.</p>
-            <a href="/#pets" className="link">Find a pet</a>
+            <a href="/#/pets" className="link">Find a pet</a>
         </div>
         
     </div>
