@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adoptem/static/css/main.eda70fd4.chunk.css",
+    "main.css": "/adoptem/static/css/main.1a537505.chunk.css",
     "main.js": "/adoptem/static/js/main.776c81d7.chunk.js",
     "main.js.map": "/adoptem/static/js/main.776c81d7.chunk.js.map",
     "runtime-main.js": "/adoptem/static/js/runtime-main.daa62dec.js",
@@ -8,9 +8,9 @@
     "static/js/2.e3deaebf.chunk.js": "/adoptem/static/js/2.e3deaebf.chunk.js",
     "static/js/2.e3deaebf.chunk.js.map": "/adoptem/static/js/2.e3deaebf.chunk.js.map",
     "index.html": "/adoptem/index.html",
-    "precache-manifest.6feaa393eb3ce65a7e44224389a6a983.js": "/adoptem/precache-manifest.6feaa393eb3ce65a7e44224389a6a983.js",
+    "precache-manifest.532869f116b139db7082ec8d984cb048.js": "/adoptem/precache-manifest.532869f116b139db7082ec8d984cb048.js",
     "service-worker.js": "/adoptem/service-worker.js",
-    "static/css/main.eda70fd4.chunk.css.map": "/adoptem/static/css/main.eda70fd4.chunk.css.map",
+    "static/css/main.1a537505.chunk.css.map": "/adoptem/static/css/main.1a537505.chunk.css.map",
     "static/media/about.jpg": "/adoptem/static/media/about.d12dffb9.jpg",
     "static/media/alice-2.jpg": "/adoptem/static/media/alice-2.85da63bf.jpg",
     "static/media/alice.jpg": "/adoptem/static/media/alice.24d8f0d1.jpg",
@@ -67,7 +67,7 @@
   "entrypoints": [
     "static/js/runtime-main.daa62dec.js",
     "static/js/2.e3deaebf.chunk.js",
-    "static/css/main.eda70fd4.chunk.css",
+    "static/css/main.1a537505.chunk.css",
     "static/js/main.776c81d7.chunk.js"
   ]
 }
