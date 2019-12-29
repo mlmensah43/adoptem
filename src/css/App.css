@@ -46,7 +46,7 @@ button{
   grid-column: 1/4;
   justify-self: center;
   color: black;
-  font-size: 1.8em;
+  font-size: 1.3em;
   text-transform: capitalize;
 }
 
@@ -54,6 +54,21 @@ textarea{
   border: none;
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  .title{
+    font-size: 1.8em;
+  }
+  body{
+    font-size: 1.5em;
+  }
+  
+  
+}
+
+
 @media only screen and (min-width: 1050px) {
+  .title{
+    font-size: 2em;
+  }
   
 }

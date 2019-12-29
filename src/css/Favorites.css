@@ -1,5 +1,5 @@
 .Favorites{
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
     background-color: white;
@@ -16,8 +16,34 @@
 }
 
 .pets-grid{
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(10px, auto);
     grid-gap: 8em;
-    grid-column: 1/4; 
+    grid-column: 1/4;
+    justify-items: center; 
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .Favorites{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .pets-grid{
+         grid-template-columns: 2fr 2fr 2fr;
+         grid-gap: 4em;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 1050px) {
+    .Favorites{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .pets-grid{
+         grid-template-columns: 2fr 2fr 2fr;
+    }
+    
 }

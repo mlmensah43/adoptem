@@ -9,10 +9,12 @@ function Landing() {
 
         <Nav color="white"></Nav>
 
-        <div className="paragraph">
-            <div className="header">The best breeds are the ones in need.</div>
-            <p>Adopting an abandoned animal is one of the best ways to change a life. Help change a life today and adopt.</p>
-            <Link to="/pets"><div className="link">Find a pet</div></Link>
+        <div className="left-side">
+          <div className="paragraph flex-col">
+              <div className="header">The best breeds are the ones in need.</div>
+              <p>Adopting an abandoned animal is one of the best ways to change a life. Help change a life today and adopt.</p>
+              <Link to="/pets"><div className="link">Find a pet</div></Link>
+          </div>
         </div>
         
     </div>

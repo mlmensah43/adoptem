@@ -1,43 +1,67 @@
 .Landing{
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-auto-rows: minmax(10px, auto);
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: min-content;
     grid-gap: 1em;
     background: 
     url('../images/background-1.jpg'); 
     background-repeat: no-repeat; 
-    background-size: 100vw 70vh;
+    background-size: 105vw 70vh;
     background-position: bottom right;
     height: 102vh;
     
 }
 
-.circle-row{
-    justify-content: space-around;
-}
-
 .header{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 8vw;
+}
+
+.left-side{
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+
 }
 
 .paragraph{
-    margin: 0 0 0 3em;
-    grid-column: 1/2;
+    width: 90vw;
+    justify-content: center;
 }
 
 /*
 Mobile first
 */
-@media only screen and (min-width: 500px) {
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
     .Landing{
-        background-size: 100vw 102vh;
+        background-size: 90vw 80vh;
     }
+    .header{
+        font-size: 7vw;
+    }
+    .paragraph{
+        height: 40vh;
+        justify-content: center;
+    }
+    
     
 }
 
 @media only screen and (min-width: 1050px) {
     .Landing{
         background-size: 50vw 102vh;
+    }
+    .header{
+        font-size: 40px;
+    }
+    .left-side{
+        grid-column: 1/2;
+    }
+    .paragraph{
+        width: 40vw;
+        height: 80vh;
     }
     
 }

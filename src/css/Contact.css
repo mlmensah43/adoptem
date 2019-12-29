@@ -1,6 +1,6 @@
 .Contact{
     grid-template-columns: 2fr 2fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(10px, auto);
     grid-gap: 1em;
     background-color: white;
     /* background: 
@@ -17,8 +17,8 @@
 }
 
 .box{
-    width: 40vw;
-    height: 22vw;
+    width: 70vw;
+    height: 70vw;
     align-items: center;
     padding: 2em;
     background-color: rgba(161, 159, 159, 0.2);
@@ -31,7 +31,7 @@
 
 .comments-input{
     margin: 3em 0 1em 0;
-    height: 15vw;
+    height: 50vw;
 }
 
 .form-col{
@@ -41,11 +41,11 @@
 }
 
 .form-col p{
-    width: 40vw;
+    width: 80vw;
 }
 
 .checkmark{
-    width: 10vw;
+    width: 28vw;
 }
 
 .success-col{
@@ -59,8 +59,8 @@
 
 
 input{
-    width: 18vw;
-    height: 2.5vw;
+    width: 35vw;
+    height: 7vw;
     border: none;
     text-indent: 15px;
 }
@@ -69,9 +69,47 @@ textarea{
     text-indent: 15px;
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+
+    .box{
+        width: 40vw;
+        height: 22vw;
+    }
+    input{
+        width: 18vw;
+        height: 2.5vw;
+    }
+    .comments-input{
+        height: 15vw;
+    }
+    .form-col p{
+        width: 40vw;
+    }
+    .checkmark{
+        width: 10vw;
+    }
+    
+}
+
+
 @media only screen and (min-width: 1050px) {
-    .Contact{
-        background-size: 100vw 102vh;
+
+    .box{
+        width: 40vw;
+        height: 22vw;
+    }
+    input{
+        width: 18vw;
+        height: 2.5vw;
+    }
+    .comments-input{
+        height: 15vw;
+    }
+    .form-col p{
+        width: 40vw;
+    }
+    .checkmark{
+        width: 10vw;
     }
     
 }

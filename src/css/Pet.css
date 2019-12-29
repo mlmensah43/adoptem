@@ -1,7 +1,7 @@
 .pet-image{
-    width: 15vw;
-    height: 22vw;
-    border-radius: 30px;
+    width: 60vw;
+    height: 85vw;
+    border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: block;
 }
@@ -59,3 +59,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .pet-image{
+      width: 18vw;
+      height: 25vw;
+    }
+
+  }
+
+  @media only screen and (min-width: 1050px) {
+    .pet-image{
+      width: 15vw;
+      height: 22vw;
+    }
+    
+}

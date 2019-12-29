@@ -1,11 +1,12 @@
 .Nav{
     justify-content: space-between;
     grid-column: 1/ 4;
+    width: 100vw;
 }
 
 .adoptem{
     margin: 3em 0 0 0;
-    width: 25vw;
+    width: 40vw;
 }
 
 .menu{
@@ -13,14 +14,14 @@
 }
 
 .logo{
-    width: 10vw;
-    margin: 3em 0 0 3em;
+    width: 7vw;
+    margin: 3em 0 0 2em;
   }
 
 .heart-icon{
-    width: 2vw;
-    height: 2vw;
-    margin: 3em 3em 0 1em;
+    width: 6vw;
+    height: 6vw;
+    margin: 3em 1em 0 2em;
 }
 
 .menu-icon{
@@ -34,15 +35,41 @@
     color: black;
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .adoptem{
+        width: 28vw;
+    }
+
+    .logo{
+        width: 5vw;
+    }
+
+    .heart-icon{
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .menu-icon{
+        width: 4vw;
+    }
+    
+    
+}
 
 @media only screen and (min-width: 1050px) {
 
     .adoptem{
-        width: 15vw;
+        width: 16vw;
+    }
+    .heart-icon{
+        width: 2.5vw;
+        height: 2.5vw;
+        margin: 3em 3em 0 1em;
     }
 
     .logo{
-        width: 4vw;
+        width: 3.3vw;
+        margin: 3em 0 0 3em;
     }
 
     .menu-icon{

@@ -1,5 +1,5 @@
 .Pets{
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(50px, auto);
     grid-gap: 1em;
     background-color: white;
@@ -14,10 +14,7 @@
 }
 
 .pets-grid{
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-auto-rows: minmax(10px, auto);
-    grid-gap: 8em;
-    grid-column: 1/4;
+    grid-template-columns: 1fr;
     
 }
 
@@ -35,8 +32,8 @@
     background-color: rgba(161, 159, 159, 0.1);
     padding: 2em 0;
     border-radius: 20px;
-    width: 20vw;
-    margin: 0 35%;
+    width: 60vw;
+    margin: 0 auto;
     height: .8vw;
     align-items: center;
     justify-content: space-evenly;
@@ -48,15 +45,59 @@
 }
 
 .icons{
-    width: 3vw;
-    height: 3vw;
+    width: 8vw;
+    height: 8vw;
 }
 
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .Pets{
+        background-size: 100vw 102vh;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .pets-grid{
+         grid-template-columns: 2fr 2fr 2fr;
+         grid-auto-rows: minmax(10px, auto);
+         grid-gap: 4em;
+         grid-column: 1/4;
+    }
+
+    .gray-row-2{
+        width: 30vw;
+        margin: 0 auto;
+    }
+
+    .icons{
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    
+}
 
 
 @media only screen and (min-width: 1050px) {
     .Pets{
         background-size: 100vw 102vh;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .pets-grid{
+         grid-template-columns: 2fr 2fr 2fr;
+         grid-auto-rows: minmax(10px, auto);
+         grid-gap: 8em;
+         grid-column: 1/4;
+    }
+
+    .gray-row-2{
+        width: 20vw;
+        margin: 0 auto;
+    }
+
+    .icons{
+        width: 3vw;
+        height: 3vw;
     }
     
 }

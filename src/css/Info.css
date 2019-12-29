@@ -1,6 +1,6 @@
 .Info{
-    grid-template-columns: 2fr 2fr;
-    grid-auto-rows: minmax(80px, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(5px, auto);
     grid-gap: 1em;
     background-color: white;
     min-height: 100vh;
@@ -21,7 +21,7 @@
   }
 
 .image-col{
-    grid-column: 1/2;
+    grid-column: 2/3;
     justify-self: end;
     justify-content: space-evenly;
     align-items: center;
@@ -29,14 +29,15 @@
 }
 
 .description{
+    grid-column: 2/3;
     justify-self: center;
     justify-content: center;
 }
 
 .image{
     border-radius: 20px;
-    width: 35vw;
-    height: 30vw;
+    width: 70vw;
+    height: 60vw;
     margin-bottom: 2vw;
 }
 
@@ -45,7 +46,7 @@
 }
 
 .heart{
-    width: 2vw;
+    width: 10vw;
 }
 
 .square{
@@ -61,7 +62,7 @@
     background-color: rgba(161, 159, 159, 0.1);
     padding: 2em 0;
     border-radius: 20px;
-    width: 30vw;
+    width: 65vw;
     height: .8vw;
     align-items: center;
     justify-content: space-evenly;
@@ -74,7 +75,7 @@
 
 
 .p-w{
-    width: 35vw;
+    width: 60vw;
 }
 
 .gray-row .flex-col{
@@ -92,9 +93,65 @@
     /* margin: 1em; */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
     .Info{
-        grid-template-columns: 2fr;
+        grid-template-columns: 2fr 2fr;
     }
-  
+
+    .image{
+        width: 35vw;
+        height: 30vw;
+    }
+
+    .gray-row{
+        width: 33vw;
+    }
+
+    .image-col{
+        grid-column: 1/2;
+    }
+
+    .description{
+        grid-column: 2/3;
+    }
+    .heart{
+        width: 5vw;
+    }
+    .p-w{
+        width: 35vw;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 1050px) {
+    .Info{
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .image{
+        width: 35vw;
+        height: 30vw;
+    }
+
+    .gray-row{
+        width: 30vw;
+    }
+
+    .image-col{
+        grid-column: 1/2;
+    }
+
+    .description{
+        grid-column: 2/3;
+    }
+    .heart{
+        width: 2vw;
+    }
+    .p-w{
+        width: 35vw;
+    }
+    
+    
 }

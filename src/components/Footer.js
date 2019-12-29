@@ -13,7 +13,7 @@ function Footer(props) {
         <div className="flex-row">
             <img className="footer-icons" src={require(`../images/facebook.png`)} alt='facebook'></img>
             <img className="footer-icons" src={require(`../images/instagram.png`)} alt='instagram'></img>
-            <img className="yt-icon" src={require(`../images/youtube.png`)} alt='youtube'></img>
+            {/* <img className="yt-icon" src={require(`../images/youtube.png`)} alt='youtube'></img> */}
         </div>
     </div>
   );
