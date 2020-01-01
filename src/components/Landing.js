@@ -13,7 +13,7 @@ function Landing() {
           <div className="paragraph flex-col">
               <div className="header">The best breeds are the ones in need.</div>
               <p>Adopting an abandoned animal is one of the best ways to change a life. Help change a life today and adopt.</p>
-              <Link to="/pets"><div className="link">Find a pet</div></Link>
+              <Link className="lnk" to="/pets"><div className="link">Find a pet</div></Link>
           </div>
         </div>
         

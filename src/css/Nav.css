@@ -21,7 +21,7 @@
 .heart-icon{
     width: 6vw;
     height: 6vw;
-    margin: 3em 1em 0 2em;
+    margin: 3em 2em 0 0em;
 }
 
 .menu-icon{
@@ -42,11 +42,13 @@
 
     .logo{
         width: 5vw;
+        margin: 3em 0 0 2em;
     }
 
     .heart-icon{
         width: 4vw;
         height: 4vw;
+        margin: 3em 2em 0 0em;
     }
 
     .menu-icon{
@@ -64,12 +66,12 @@
     .heart-icon{
         width: 2.5vw;
         height: 2.5vw;
-        margin: 3em 3em 0 1em;
+        margin: 3em 2em 0 0em;
     }
 
     .logo{
         width: 3.3vw;
-        margin: 3em 0 0 3em;
+        margin: 3em 0 0 2em;
     }
 
     .menu-icon{

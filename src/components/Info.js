@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav'
 import '../css/Info.css';
 import Footer from './Footer';
+import {Link} from 'react-router-dom';
 
 class Info extends React.Component {
 
@@ -89,7 +90,7 @@ class Info extends React.Component {
                         <p className="gray-word p-w">{this.props.bg}</p>
                         <div className="fav-row flex-row">
                             <button onClick={() => this.toggle(this.props.id, this.props.name)}><img className="heart" src={require(`../images/heart-${this.state.favorite}.png`)} alt='heart'></img></button>
-                            <a href="/#contact" className="link-2 black">Ask About <span className="capitalize">{this.props.name}</span></a>
+                            <Link to="/contact" className="link-2 black">Ask About <span className="capitalize">{this.props.name}</span></Link>
                         </div>
                     </div>
         

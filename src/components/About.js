@@ -10,10 +10,10 @@ function About(props) {
 
             <div className="title">About</div>
 
-            <div className="left flex-col">
+            <div className="left">
                 <img className="about-image" src={require('../images/about.jpg')} alt="dogs"></img>
             </div>
-            <div className="right flex-col">
+            <div className="right">
                 <p className="gray-word p-w">We use the power of the Internet to connect adopters with shelter pets and help pets go from alone to adopted. We're working to help the good people at shelters and rescue groups find homes for their pets. But we don't stop there. We also provide useful and informative information on the human/companion animal relationship to help keep pets healthy and permanently in their loving homes.</p>
             </div>
           <Footer></Footer>

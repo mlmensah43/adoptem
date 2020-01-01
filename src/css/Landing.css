@@ -11,6 +11,7 @@
     
 }
 
+
 .header{
     font-weight: 700;
     font-size: 8vw;
@@ -24,6 +25,7 @@
 }
 
 .paragraph{
+    margin-top: 5vh;
     width: 90vw;
     justify-content: center;
 }

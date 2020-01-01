@@ -7,6 +7,10 @@ body{
   margin: 0;
 }
 
+svg{
+  font-family: 'Roboto';
+}
+
 button{
   background: none;
   border: none;
@@ -33,13 +37,19 @@ button{
 }
 
 .link{
-  margin: 0 36.5%;
+  max-width: 20vw;
+  display: inline;
   border-radius: 40px;
   border: 1px solid white;
   background: none;
   padding: .7em;
   color: white;
   text-decoration: none;
+}
+
+.lnk {
+  text-decoration: none;
+  margin: 1vh auto;
 }
 
 .title{
@@ -59,8 +69,9 @@ textarea{
     font-size: 1.8em;
   }
   body{
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
+
   
   
 }
