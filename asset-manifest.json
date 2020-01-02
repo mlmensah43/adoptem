@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/adoptem/static/css/main.e3953ba2.chunk.css",
-    "main.js": "/adoptem/static/js/main.c3ebc6a3.chunk.js",
-    "main.js.map": "/adoptem/static/js/main.c3ebc6a3.chunk.js.map",
+    "main.css": "/adoptem/static/css/main.bd6730dc.chunk.css",
+    "main.js": "/adoptem/static/js/main.30a2066d.chunk.js",
+    "main.js.map": "/adoptem/static/js/main.30a2066d.chunk.js.map",
     "runtime-main.js": "/adoptem/static/js/runtime-main.daa62dec.js",
     "runtime-main.js.map": "/adoptem/static/js/runtime-main.daa62dec.js.map",
     "static/js/2.39369b7d.chunk.js": "/adoptem/static/js/2.39369b7d.chunk.js",
     "static/js/2.39369b7d.chunk.js.map": "/adoptem/static/js/2.39369b7d.chunk.js.map",
     "index.html": "/adoptem/index.html",
-    "precache-manifest.831a16ab79cd82083e3be7c980e409c6.js": "/adoptem/precache-manifest.831a16ab79cd82083e3be7c980e409c6.js",
+    "precache-manifest.a94a73b89b250045c4832a7ab0c9cbc3.js": "/adoptem/precache-manifest.a94a73b89b250045c4832a7ab0c9cbc3.js",
     "service-worker.js": "/adoptem/service-worker.js",
-    "static/css/main.e3953ba2.chunk.css.map": "/adoptem/static/css/main.e3953ba2.chunk.css.map",
+    "static/css/main.bd6730dc.chunk.css.map": "/adoptem/static/css/main.bd6730dc.chunk.css.map",
     "static/media/about.jpg": "/adoptem/static/media/about.d12dffb9.jpg",
     "static/media/alice-2.jpg": "/adoptem/static/media/alice-2.85da63bf.jpg",
     "static/media/alice.jpg": "/adoptem/static/media/alice.24d8f0d1.jpg",
     "static/media/Landing.css": "/adoptem/static/media/background-1.f258ba3d.jpg",
-    "static/media/black-logo-2.svg": "/adoptem/static/media/black-logo-2.e053fd7f.svg",
+    "static/media/black-logo-2.svg": "/adoptem/static/media/black-logo-2.bb62e684.svg",
     "static/media/black-logo.svg": "/adoptem/static/media/black-logo.8f09b272.svg",
     "static/media/bubbles copy 2.jpg": "/adoptem/static/media/bubbles copy 2.37898f15.jpg",
     "static/media/bubbles copy.jpg": "/adoptem/static/media/bubbles copy.e42cc2e6.jpg",
@@ -63,13 +63,13 @@
     "static/media/victor-2.jpg": "/adoptem/static/media/victor-2.88eadf9c.jpg",
     "static/media/victor-grabarczyk-cfy63vy2mOs-unsplash.jpg": "/adoptem/static/media/victor-grabarczyk-cfy63vy2mOs-unsplash.19db2e24.jpg",
     "static/media/victor.jpg": "/adoptem/static/media/victor.d82de6d0.jpg",
-    "static/media/white-logo-2.svg": "/adoptem/static/media/white-logo-2.1127be6b.svg",
+    "static/media/white-logo-2.svg": "/adoptem/static/media/white-logo-2.d51bd942.svg",
     "static/media/white-logo.svg": "/adoptem/static/media/white-logo.b28d614a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.daa62dec.js",
     "static/js/2.39369b7d.chunk.js",
-    "static/css/main.e3953ba2.chunk.css",
-    "static/js/main.c3ebc6a3.chunk.js"
+    "static/css/main.bd6730dc.chunk.css",
+    "static/js/main.30a2066d.chunk.js"
   ]
 }
