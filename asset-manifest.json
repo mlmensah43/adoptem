@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adoptem/static/css/main.bf456062.chunk.css",
+    "main.css": "/adoptem/static/css/main.e3953ba2.chunk.css",
     "main.js": "/adoptem/static/js/main.c3ebc6a3.chunk.js",
     "main.js.map": "/adoptem/static/js/main.c3ebc6a3.chunk.js.map",
     "runtime-main.js": "/adoptem/static/js/runtime-main.daa62dec.js",
@@ -8,9 +8,9 @@
     "static/js/2.39369b7d.chunk.js": "/adoptem/static/js/2.39369b7d.chunk.js",
     "static/js/2.39369b7d.chunk.js.map": "/adoptem/static/js/2.39369b7d.chunk.js.map",
     "index.html": "/adoptem/index.html",
-    "precache-manifest.838b6ebc831b89a9ff4757a3e1dacdc6.js": "/adoptem/precache-manifest.838b6ebc831b89a9ff4757a3e1dacdc6.js",
+    "precache-manifest.831a16ab79cd82083e3be7c980e409c6.js": "/adoptem/precache-manifest.831a16ab79cd82083e3be7c980e409c6.js",
     "service-worker.js": "/adoptem/service-worker.js",
-    "static/css/main.bf456062.chunk.css.map": "/adoptem/static/css/main.bf456062.chunk.css.map",
+    "static/css/main.e3953ba2.chunk.css.map": "/adoptem/static/css/main.e3953ba2.chunk.css.map",
     "static/media/about.jpg": "/adoptem/static/media/about.d12dffb9.jpg",
     "static/media/alice-2.jpg": "/adoptem/static/media/alice-2.85da63bf.jpg",
     "static/media/alice.jpg": "/adoptem/static/media/alice.24d8f0d1.jpg",
@@ -69,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.daa62dec.js",
     "static/js/2.39369b7d.chunk.js",
-    "static/css/main.bf456062.chunk.css",
+    "static/css/main.e3953ba2.chunk.css",
     "static/js/main.c3ebc6a3.chunk.js"
   ]
 }
