@@ -7,6 +7,12 @@ body{
   margin: 0;
 }
 
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap") 
+  format("svg"); 
+}
+
 svg{
   font-family: 'Roboto';
 }
@@ -66,10 +72,10 @@ textarea{
 
 @media only screen and (min-width: 800px) and (max-width: 1050px) {
   .title{
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
   body{
-    font-size: 1.8em;
+    font-size: 1.3em;
   }
 
   
